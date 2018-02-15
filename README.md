@@ -42,12 +42,12 @@ Run the image you built using the following command for either cpu or gpu to sta
 
 **CPU**
 ```
-docker run -it -v /var/run/docker.sock:/var/run/docker.sock -p 8888:8888 --expose=8888 cv
+sudo docker run -it -v /var/run/docker.sock:/var/run/docker.sock -p 8888:8888 --expose=8888 cv
 ```
 
 **GPU**
 ```
-sudo nvidia-docker docker run -it  -v /var/run/docker.sock:/var/run/docker.sock -p 8888:8888 --expose=8888 cv
+sudo nvidia-docker run -it  -v /var/run/docker.sock:/var/run/docker.sock -p 8888:8888 --expose=8888 cv
 ```
 
 ### Step 5 
