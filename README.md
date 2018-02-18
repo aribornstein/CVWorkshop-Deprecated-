@@ -3,13 +3,6 @@ In this workshop we'll be exploring the topic of Computer Vision, through deep d
  
 This computer vision workshop is based on the work detecting complex policies in the following [real life code story](https://www.microsoft.com/developerblog/2017/07/31/using-object-detection-complex-image-classification-scenarios/)
 
-## Wifi Password
-
-### Repo https://github.com/CatalystCode/CVWorkshop/
-### SSID AzureHack2018
-### Password microsoftct
-
-
 # Setup Instructions
 ### Step 1 
 Download and Install the [docker](https://www.docker.com) or if you have a gpu and unix based os the nvidia-docker client.
