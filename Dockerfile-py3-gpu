@@ -1,4 +1,4 @@
-FROM microsoft/cntk:.4-gpu-python3.5-cuda9.0-cudnn7.0
+FROM microsoft/cntk:2.4-gpu-python3.5-cuda9.0-cudnn7.0
 
 LABEL maintainer "MICROSOFT CORPORATION"
 
