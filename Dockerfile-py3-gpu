@@ -1,9 +1,9 @@
-FROM microsoft/cntk:.4-gpu-python3.5-cuda9.0-cudnn7.0
+FROM microsoft/cntk:2.4-gpu-python3.5-cuda9.0-cudnn7.0
 
 LABEL maintainer "MICROSOFT CORPORATION"
 
 # Docker install
-RUN apt-get update && apt-get install -y \
+RUN apt-get update && DEBIAN_FRONTEND=noninteractive apt-get install -y \
     apt-transport-https \
     ca-certificates \
     curl \
@@ -16,10 +16,10 @@ RUN add-apt-repository \
    $(lsb_release -cs) \
    stable"
 
-RUN apt-get update && apt-get install -y docker-ce
+RUN apt-get update && DEBIAN_FRONTEND=noninteractive apt-get install -y docker-ce
 
 # Object Detection
-RUN apt-get update && apt-get install -y --no-install-recommends \
+RUN apt-get update && DEBIAN_FRONTEND=noninteractive apt-get install -y --no-install-recommends \
         cmake \
         git \
         libopencv-dev \
