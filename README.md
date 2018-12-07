@@ -1,3 +1,7 @@
+# Note this workshop has been deprecated
+Check out the new workshop with full CPU support, Keras examples, RetinaNet support explinations of the latest Azure Machine Learning Service [here](https://github.com/aribornstein/cvworkshop)
+
+
 # Computer Vision Workshop
 In this workshop we'll be exploring the topic of Computer Vision, through deep diving into a recent real world customer scenario. We’ll compare different approaches and demonstrate how the open source [VoTT](github.com/Microsoft/VoTT) (Visual Object Tagging Tool) can be used to easily annotate image and quickly iterate object detection models for complex image classification scenarios. 
  
